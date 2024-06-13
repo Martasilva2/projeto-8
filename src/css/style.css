@@ -1,0 +1,134 @@
+ 
+ *{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'poppins',sans-serif;
+ }
+
+  body{
+      background-color: #000;
+      height: 100vh;
+  }
+  
+  .interface{
+         max-width: 1280px;
+         margin:0 auto;
+  }
+  header{
+    padding: 40px 4%;
+
+  }
+
+  header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header a{
+    color:#fff;
+    text-align: none;
+
+  }
+   header nav ul{
+    list-style-type: none;
+
+   }
+
+   header nav ul li{
+     display: inline-block;
+     padding: 0 40px;
+
+   }
+   header .btn-contato button{
+    padding: 10px 40px;
+    font: 18px;
+    font-weight: 600px;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    
+
+
+
+
+
+
+
+
+
+   }
+
+
+
+
+
+
+   img {
+    width: 300px;
+    height: 200px;
+   }
+
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ section.formulario{
+    padding: 80px 4%;
+  }
+
+  form{
+    max-width: 500px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+  }
+   
+  form input, form textarea{
+    width: 100%;
+    background-color: #69636332;
+    border: 0;
+    outline: 0;
+    padding: 20px  15px;
+    border-radius: 15px;
+    color:#2c0303;
+    font-size: 18px;
+  }
+   form textarea{
+    resize: none;
+    max-height:200px;
+   }
+
+   form .btn-enviar{
+    margin: 20px;
+    text-align: center;
+   }
+ form .btn-enviar input{
+    width: 120px;
+    background-color:#00ff08 ;
+    color:white;
+
+ }
